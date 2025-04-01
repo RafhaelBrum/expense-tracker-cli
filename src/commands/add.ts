@@ -1,21 +1,16 @@
 import { Expense } from "../types/expense";
-import { writeExpenses, readExpenses } from "../utils/fileManager"
+import { writeExpenses, readExpenses, newId } from "../utils/fileManager"
 
 
 export default function add(description: string, amount: number) {
     const fileData = readExpenses();
-    const dateNow = new Date();
-    let maxId = 0;
-    if (fileData.length !== 0) {
-        const ids = fileData.map(({ id }) => id);
-        maxId = Math.max(...ids);
-    }
+    const id = newId(fileData);
 
     let newExpense: Expense = {
-        id: maxId + 1,
+        id: id,
         description: description,
         amount: amount,
-        date: dateNow.toISOString(),
+        date: new Date().toISOString(),
     }
     fileData.push(newExpense);
 
