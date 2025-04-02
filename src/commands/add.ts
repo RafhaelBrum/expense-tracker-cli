@@ -14,4 +14,5 @@ export default function add(description: string, amount: number) {
     fileData.push(newExpense);
 
     writeExpenses(fileData);
+    console.log(`Expense added succefully (ID: ${ id })`)
 }

@@ -90,5 +90,9 @@ export function returnMonthExpense(month: string) {
         case "12":
             printMonth("12", "december");
             break;
+
+        default:
+            console.log("Invalid month. (1, 2, 3... 12)");
+            break;
     }
 }

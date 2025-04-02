@@ -28,5 +28,17 @@
     "description": "asoikdas",
     "amount": 4,
     "date": "2025-01-02T17:18:45.115Z"
+  },
+  {
+    "id": 7,
+    "description": "Lunch",
+    "amount": 20,
+    "date": "2025-04-02T18:12:01.852Z"
+  },
+  {
+    "id": 8,
+    "description": "Lunch",
+    "amount": 20,
+    "date": "2025-04-02T18:12:58.819Z"
   }
 ]
