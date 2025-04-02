@@ -1,7 +1,6 @@
 import { Expense } from "../types/expense";
 import { writeExpenses, readExpenses, newId } from "../utils/fileManager"
 
-
 export default function add(description: string, amount: number) {
     const fileData = readExpenses();
     const id = newId(fileData);

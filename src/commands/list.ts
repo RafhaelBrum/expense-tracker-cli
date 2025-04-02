@@ -1,7 +1,4 @@
-import { read } from "fs";
 import { readExpenses } from "../utils/fileManager"
-
-
 
 export default function list(): void {
     const formattedList = readExpenses().map(exp => ({
