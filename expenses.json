@@ -3,6 +3,30 @@
     "id": 2,
     "description": "water",
     "amount": 20,
-    "date": "2025-04-01T20:16:51.922Z"
+    "date": "2025-05-01T20:16:51.922Z"
+  },
+  {
+    "id": 3,
+    "description": "asoikdas",
+    "amount": 4,
+    "date": "2025-05-02T17:18:37.714Z"
+  },
+  {
+    "id": 4,
+    "description": "asoikdas",
+    "amount": 4,
+    "date": "2025-05-02T17:18:41.056Z"
+  },
+  {
+    "id": 5,
+    "description": "asoikdas",
+    "amount": 4,
+    "date": "2025-01-02T17:18:43.071Z"
+  },
+  {
+    "id": 6,
+    "description": "asoikdas",
+    "amount": 4,
+    "date": "2025-01-02T17:18:45.115Z"
   }
 ]
