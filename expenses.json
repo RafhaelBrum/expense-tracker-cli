@@ -46,5 +46,11 @@
     "description": "Dinner",
     "amount": 0.01,
     "date": "2025-04-02T18:45:30.612Z"
+  },
+  {
+    "id": 12,
+    "description": "Lunch",
+    "amount": 20,
+    "date": "2025-04-02T19:00:38.458Z"
   }
 ]

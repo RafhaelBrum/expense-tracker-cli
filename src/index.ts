@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import add from "./commands/add";
 import list from "./commands/list";
 import summary from "./commands/summary";
