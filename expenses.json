@@ -1,11 +1,5 @@
 [
   {
-    "id": 2,
-    "description": "water",
-    "amount": 20,
-    "date": "2025-05-01T20:16:51.922Z"
-  },
-  {
     "id": 3,
     "description": "asoikdas",
     "amount": 4,
@@ -40,5 +34,11 @@
     "description": "Lunch",
     "amount": 20,
     "date": "2025-04-02T18:12:58.819Z"
+  },
+  {
+    "id": 9,
+    "description": "Dinner",
+    "amount": 10,
+    "date": "2025-04-02T18:28:08.424Z"
   }
 ]

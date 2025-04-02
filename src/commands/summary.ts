@@ -7,10 +7,6 @@ export default function summary(month?: string): void {
             returnMonthExpense(month)
             return
         }
-        else {
-            console.log("Invalid month");
-            return
-        }
 
     }
     const list = readExpenses();
