@@ -30,5 +30,7 @@ switch (command) {
     case "delete":
         deleteExpense(id);
         break;
-
+    default:
+        console.log("Invalid command.\nAvaiable commands: add, list, summary, delete");
+        break;
 }
