@@ -1,5 +1,5 @@
 import add from "./commands/add";
-
+import list from "./commands/list";
 
 const descIndex = process.argv.indexOf("--description");
 const amountIndex = process.argv.indexOf("--amount");
@@ -11,6 +11,8 @@ switch (command) {
     case "add":
         add(desc, amount);
         break;
-
+    case "list":
+        list();
+        break;
 
 }
